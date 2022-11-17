@@ -1,0 +1,72 @@
+.header {
+  padding: 61px 0;
+
+
+  &__desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+
+  }
+
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+
+  &__logo {
+    margin-bottom: 6px;
+  }
+
+  &__text {
+    font-family: $montserrat;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  &__right {
+    display: flex;
+  }
+
+  &__tel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text-color;
+  }
+
+  &__socials {
+    width: 116px;
+    margin-left: 48px;
+  }
+
+  &__mobile {
+    display: none;
+  }
+}
+
+
+.navbar {
+  margin-left: 24px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 30px;
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text-color
+  }
+}
