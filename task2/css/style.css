@@ -96,7 +96,7 @@ body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   background-color: #1E1E1E;
-  background-image: url("/img/desktop/purple-light.png"), url("/img/desktop/red-light.png");
+  background-image: url("../img/desktop/purple-light.png"), url("../img/desktop/red-light.png");
   background-repeat: no-repeat;
   background-position: 100% 0, 0 0;
   background-size: auto, auto;
@@ -558,7 +558,7 @@ footer {
 }
 @media (max-width: 576px) {
   body {
-    background-image: url("/img/mobile/purple-light-mobile.png"), url("/img/desktop/red-light.png");
+    background-image: url("../img/mobile/purple-light-mobile.png"), url("../img/desktop/red-light.png");
     background-position: right 0, 0 0;
   }
   .container {
